@@ -10,7 +10,6 @@
 - **Challenges**: Post and solve coding challenges.
 - **Solutions**: Submit solutions and view others’ approaches.
 - **Comments**: Engage in discussions on specific solutions.
-- **User Profiles**: Track your completed challenges and achievements.
 
 ## Installation Guide
 
