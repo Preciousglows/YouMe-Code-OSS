@@ -58,8 +58,8 @@ function UserProfile() {
         <div className="p-8 bg-gray-900 min-h-screen md:mx-auto md:w-1/2 text-gray-200">
             <ProfileHeader user={user} setUserAvatar={setUserAvatar} />
             <div className="mt-8">
-                <div className='p-6 flex gap-8 items-center  rounded-lg bg-gray-800 shadow-lg hover:shadow-xl transition'>
-                    <h2 className="text-2xl font-bold mb-4">Profile</h2>
+                <div className='p-6 md:flex gap-8 items-center  rounded-lg bg-gray-800 shadow-lg hover:shadow-xl transition'>
+                    <h2 className="text-2xl text-center md:text-left font-bold mb-4">Profile</h2>
 
                     <div className='flex flex-col gap-2 h-full w-full'>
                         <p className="text-gray-300 mb-2 w-full bg-blue-600 font-semibold rounded-lg p-2">Email: 

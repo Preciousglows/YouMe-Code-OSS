@@ -7,7 +7,7 @@ function Features() {
     return (
         <div className="features-section py-10 bg-gray-400 text-white">
             <h2 className="text-center text-3xl font-bold my-8 text-gray-8">Platform Highlights</h2>
-            <div className="flex flex-wrap justify-center gap-8">
+            <div className="flex flex-wrap justify-center px-7 md:p-0 gap-8">
                 <div className="feature-card py-10 px-6 max-w-sm rounded-md shadow-gray-800 shadow-md bg-gray-800">
                     <img src={target} alt="" />
                     <h3 className="text-xl font-semibold my-3">Post Challenges</h3>

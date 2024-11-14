@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 function Footer() {
     return (
         <footer className="footer bg-gray-900 text-white py-6">
-            <div className="flex md:flex-col md:mx-auto justify-between md:justify-center items-center">
+            <div className="flex flex-col mx-auto justify-center items-center">
                 <p>&copy; 2024 YouMe Code. All rights reserved.</p>
                 <nav>
                     <Link to="/about" className="mx-2 hover:border-b-2 hover:border-b-primary">About Us</Link>

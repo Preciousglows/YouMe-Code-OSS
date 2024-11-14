@@ -84,10 +84,10 @@ function Challenges() {
     return (
         <div className="min-h-screen bg-gray-900 text-white p-8">
             <div className="flex justify-between items-center mb-10">
-                <h1 className="text-4xl font-bold text-primary">Challenges</h1>
+                <h1 className="md:text-4xl text-2xl font-bold text-primary">Challenges</h1>
                 <Link
                     to="/app/create-challenge"
-                    className="bg-primary text-white px-4 py-2 rounded-lg hover:bg-indigo-600 transition"
+                    className="bg-primary text-white md:text-lg text-xs px-2 font-semibold md:px-4 py-2 rounded-lg hover:bg-indigo-600 transition"
                 >
                     Create Challenge
                 </Link>
